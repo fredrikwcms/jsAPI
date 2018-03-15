@@ -4,7 +4,7 @@
     $.ajax({
       type: "GET", //Hämta data från url via ajaxmetoden
       url: url,
-      timeout: 2000,
+      timeout: 10000,
       // loggar BEFORE innan hämtning
       beforeSend: function() {
         console.log('BEFORE');
